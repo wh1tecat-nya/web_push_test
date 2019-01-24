@@ -1,9 +1,11 @@
 {
   "name": "web_push",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "dependencies": {
-    "fastify": "^1.13.4"
+    "fastify": "^1.13.4",
+    "fastify-static": "^1.1.0",
+    "web-push": "^3.3.3"
   }
 }
